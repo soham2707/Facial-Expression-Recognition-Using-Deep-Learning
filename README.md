@@ -25,3 +25,23 @@ Authors: Gao Huang, Zhuang Liu, Kilian Q. Weinberger, Laurens van der Maaten
 <p align="left">
     <img src="https://cdn-images-1.medium.com/max/800/1*8u_aFzHgNyW3a1ENM0BoTg.jpeg" width="770" height="470">
   </p>
+  
+**ResNet152**
+
+Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions concerning the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset, we evaluate residual nets with a depth of up to 152 layers - -8x deeper than VGG nets but still having lower complexity.
+An ensemble of these residual nets achieves a 3.57% error on the ImageNet test set. This result won 1st place on the ILSVRC 2015 classification task. We also present an analysis on CIFAR-10 with 100 and 1000 layers.
+The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28% relative improvement on the COCO object detection dataset. Deep residual nets are the foundations of our submissions to ILSVRC & COCO 2015 competitions, where we also won 1st place on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.
+Authors: Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+
+<p align="left">
+    <img src="https://cdn-images-1.medium.com/max/1200/0*5Dx4cUwjE-tlVqYo.png" width="770" height="470">
+  </p>
+  
+  Transfer Learning:
+  ------
+ The basic premise of transfer learning is simple: take a model trained on a large dataset and transfer its knowledge to a smaller dataset. For object recognition with a CNN, we freeze the early convolutional layers of the network and only train the last few layers which make a prediction. The idea is the convolutional layers extract general, low-level features that are applicable across images - such as edges, patterns, gradients - and the later layers identify specific features within an image such as eyes or wheels.
+ 
+ <p align="left">
+    <img src="https://cdn-images-1.medium.com/max/800/0*I4hdRPcDNFcOZTIf.jpeg" width="770" height="470">
+  </p>
+  
