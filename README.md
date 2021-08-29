@@ -72,7 +72,7 @@ Initially, both the training and validation losses seem to decrease over time. H
   **Densenet161:**
   
    <p align="left">
-    <img src="https://cdn-images-1.medium.com/max/800/1*Kss6j1MMs5hxjAZzQUQvzQ.png" width="770" height="470">
+    <img src="https://cdn-images-1.medium.com/max/800/1*-NAE3T2SsBZaqG_tQaMMgg.png" width="770" height="470">
   </p>
    <p align="left">
     <img src="https://cdn-images-1.medium.com/max/800/1*K6Xaoi-TOFHhBmOhpyal9Q.png" width="770" height="470">
