@@ -93,7 +93,7 @@ Blog:
 
 Check out my Medium article ,where I have explained in detail.
 
-[Blog Link](https://nandisoham2017.medium.com/stock-market-analysis-and-forecasting-using-deep-learning-f75052e81301)
+[Blog Link](https://nandisoham2017.medium.com/facial-expression-recognition-comparative-study-on-densenet161-and-resnet152-e88ee02b6734)
 
 
 THANK YOU :
