@@ -95,6 +95,10 @@ Check out my Medium article ,where I have explained in detail.
 
 [Blog Link](https://nandisoham2017.medium.com/facial-expression-recognition-comparative-study-on-densenet161-and-resnet152-e88ee02b6734)
 
+Future Work:
+------
+
+As the results are not very satisfying I will try to make another image classification using the transfer learning approach.
 
 THANK YOU :
 -----
