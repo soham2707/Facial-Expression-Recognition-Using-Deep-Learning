@@ -20,8 +20,8 @@ Recent work has shown that convolutional networks can be substantially deeper, m
 Authors: Gao Huang, Zhuang Liu, Kilian Q. Weinberger, Laurens van der Maaten
 
 <p align="left">
-    <img src="https://cdn-images-1.medium.com/max/800/0*x37oN_kC5z0sD-rI.jpg" width="570" height="470">
+    <img src="https://cdn-images-1.medium.com/max/800/0*x37oN_kC5z0sD-rI.jpg" width="770" height="470">
   </p>
 <p align="left">
-    <img src="https://cdn-images-1.medium.com/max/800/1*8u_aFzHgNyW3a1ENM0BoTg.jpeg" width="570" height="470">
+    <img src="https://cdn-images-1.medium.com/max/800/1*8u_aFzHgNyW3a1ENM0BoTg.jpeg" width="770" height="470">
   </p>
