@@ -45,3 +45,56 @@ Authors: Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
     <img src="https://cdn-images-1.medium.com/max/800/0*I4hdRPcDNFcOZTIf.jpeg" width="770" height="470">
   </p>
   
+Results:
+-----
+**Resnet152:**
+
+ <p align="left">
+    <img src="https://cdn-images-1.medium.com/max/800/1*ATgOZDttH6gHLi7ZA7O_aw.png" width="770" height="470">
+  </p>
+  
+   <p align="left">
+    <img src="https://cdn-images-1.medium.com/max/800/1*1nOGjVJu-ibRN5TKs7fyWw.png" width="770" height="470">
+  </p>
+  
+  From the epoch vs loss graph, we can see that firstly both the training data and testing data are decreasing simultaneously up to epoch 15. After that, the training plotline started increasing for some time while the validation plotline is going parallel.
+Initially, both the training and validation losses seem to decrease over time. However, if you train the model for long enough, you will notice that the training loss continues to decrease, while the validation loss stops decreasing, and even starts to increase after a certain point!
+
+   <p align="left">
+    <img src="https://cdn-images-1.medium.com/max/1200/0*p3F28L8rAi98XIdg.png" width="770" height="470">
+  </p>
+  
+  This phenomenon is called overfitting, and it is the no. 1 why many machine learning models give rather terrible results on real-world data. It happens because the model, in an attempt to minimize the loss, starts to learn patterns that are unique to the training data, sometimes even memorizing specific training examples. Because of this, the model does not generalize well to previously unseen data.
+  
+   <p align="left">
+    <img src="https://cdn-images-1.medium.com/max/800/1*Kss6j1MMs5hxjAZzQUQvzQ.png" width="770" height="470">
+  </p>
+  **Densenet161:**
+  
+   <p align="left">
+    <img src="https://cdn-images-1.medium.com/max/800/1*Kss6j1MMs5hxjAZzQUQvzQ.png" width="770" height="470">
+  </p>
+   <p align="left">
+    <img src="https://cdn-images-1.medium.com/max/800/1*K6Xaoi-TOFHhBmOhpyal9Q.png" width="770" height="470">
+  </p>
+
+From the epoch vs loss graph, we can see that firstly both the training data and testing data are decreasing simultaneously up to epoch 5. After that, the training plotline started increasing for some time while the validation plotline is going parallelly.
+
+Conclusion:
+-----
+1. Training for Facial expression recognition was much more difficult than I thought it would be, some expressions are fairly similar and it seems to create more error when trying to recognize certain expressions.
+
+2. Maybe a bigger size picture Resize and Randomcrop can give a better result, but for that top quality, GPU is highly required otherwise it will give an "out of memory" error.
+
+3. I also tried different learning rates and other approaches. Also tried DenseNet, but ResNet was better.
+
+Blog:
+----
+
+Check out my Medium article ,where I have explained in detail.
+
+[Blog Link](https://nandisoham2017.medium.com/stock-market-analysis-and-forecasting-using-deep-learning-f75052e81301)
+
+
+THANK YOU :
+-----
